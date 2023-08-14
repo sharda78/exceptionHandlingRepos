@@ -40,10 +40,11 @@ public class NestedTryCatch {
 				System.out.println(10/0);
 			}
 		}
-		catch()
+		catch(Exception e)
 		{
-			System.out.println();
+			System.out.println(e.getMessage());
 		}
+		
 		
 
 	}
